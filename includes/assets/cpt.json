@@ -1,0 +1,56 @@
+[
+    {
+        "slug": "voslp-cities",
+        "args": {
+            "labels": {
+                "name": "Cities",
+                "singular_name": "City",
+                "add_new": "Add New",
+                "add_new_item": "Add New City",
+                "edit_item": "Edit City",
+                "new_item": "New City",
+                "view_item": "View City",
+                "search_items": "Search Cities",
+                "not_found": "No Cities found",
+                "not_found_in_trash": "No Cities found in Trash",
+                "all_items": "All Cities",
+                "menu_name": "Cities"
+            },
+            "description": "Individual location to get a landing page.",
+            "public": true,
+            "show_in_rest": true,
+            "supports": [ "title" ],
+            "has_archive": true,
+            "rewrite": {
+                "slug": "cities"
+            }
+        }
+    },
+    {
+        "slug": "voslp-content",
+        "args": {
+            "labels": {
+                "name": "City Content Block",
+                "singular_name": "City Content Block",
+                "add_new": "Add New",
+                "add_new_item": "Add New City Content Block",
+                "edit_item": "Edit City Content Block",
+                "new_item": "New City Content Block",
+                "view_item": "View City Content Block",
+                "search_items": "Search City Content Blocks",
+                "not_found": "No City Content Blocks found",
+                "not_found_in_trash": "No City Content Blocks found in Trash",
+                "all_items": "All City Content Blocks",
+                "menu_name": "Content"
+            },
+            "description": "Content blocks for a city.",
+            "public": true,
+            "show_in_rest": true,
+            "supports": [ "title", "editor" ],
+            "has_archive": false,
+            "rewrite": {
+                "slug": "city-content"
+            }
+        }
+    }
+]
