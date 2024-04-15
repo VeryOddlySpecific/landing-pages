@@ -18,6 +18,7 @@
             },
             "description": "Individual location to get a landing page.",
             "public": true,
+            "show_in_menu": "landing-pages",
             "show_in_rest": true,
             "supports": [ "title" ],
             "has_archive": true,
@@ -45,11 +46,36 @@
             },
             "description": "Content blocks for a city.",
             "public": true,
+            "show_in_menu": "landing-pages",
             "show_in_rest": true,
             "supports": [ "title", "editor" ],
             "has_archive": false,
             "rewrite": {
                 "slug": "city-content"
+            }
+        },
+        "taxonomies": {
+            "slug": "voslp-content-category",
+            "args": {
+                "labels": {
+                    "name": "Content Categories",
+                    "singular_name": "Content Category",
+                    "search_items": "Search Content Categories",
+                    "all_items": "All Content Categories",
+                    "parent_item": "Parent Content Category",
+                    "parent_item_colon": "Parent Content Category:",
+                    "edit_item": "Edit Content Category",
+                    "update_item": "Update Content Category",
+                    "add_new_item": "Add New Content Category",
+                    "new_item_name": "New Content Category Name",
+                    "menu_name": "Categories"
+                },
+                "description": "Categories for city content blocks.",
+                "public": true,
+                "show_in_rest": true,
+                "rewrite": {
+                    "slug": "content-category"
+                }
             }
         }
     }
